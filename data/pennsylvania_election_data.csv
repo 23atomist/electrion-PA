@@ -1,0 +1,11 @@
+"election_year","election_type","county_code","precinct_code","candidate_office_rank","candidate_district","candidate_party_rank","candidate_ballot_position","candidate_office_code","candidate_party_code","candidate_number","candidate_last_name","candidate_first_name","candidate_middle_name","candidate_suffix","vote_total","yes_vote_total","no_vote_total","u_s_congressional_district","state_senatorial_district","state_house_district","municipality_type_code","municipality_name","municipality_breakdown_code_1","municipality_breakdown_name_1","municipality_breakdown_code_2","municipality_breakdown_name_2","bi_county_code","m_c_d_code","f_i_p_s_code","v_t_d_code","ballot_question","record_type","previous_precinct_code","previous_u._s._congressional_district","previous_state_senatorial_district","previous_state_house_district"
+"2024","G",1,10,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",150,0,0,13,33,193,6,"ABBOTTSTOWN","","","","",0,5,001,0010,"","",0,13,33,193
+"2024","G",1,20,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",164,0,0,13,33,193,6,"ARENDTSVILLE","","","","",0,10,001,0020,"","",0,13,33,91
+"2024","G",1,30,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",97,0,0,13,33,193,6,"BENDERSVILLE","","","","",0,15,001,0030,"","",0,4,33,193
+"2024","G",1,40,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",425,0,0,13,33,193,4,"BERWICK","","","","",0,20,001,0040,"","",0,4,33,193
+"2024","G",1,50,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",198,0,0,13,33,193,6,"BIGLERVILLE","","","","",0,25,001,0050,"","",0,4,33,193
+"2024","G",1,60,1,0,1,99,"USP","DEM",2024C0932,"HARRIS","KAMALA","D","",262,0,0,13,33,91,6,"BONNEAUVILLE","","","","",0,27,001,0060,"","",0,4,33,91
+"2024","G",1,380,1,0,2,2,"USP","REP",2024C0271,"TRUMP","DONALD","JOHN","",710,0,0,13,33,91,4,"MT. JOY X 1","X","1","","",0,120,001,0380,"","",0,4,33,91
+"2024","G",1,390,1,0,2,2,"USP","REP",2024C0271,"TRUMP","DONALD","JOHN","",925,0,0,13,33,91,4,"MT. JOY X 2","X","2","","",0,120,001,0385,"","",0,4,33,91
+"2024","G",1,400,1,0,2,2,"USP","REP",2024C0271,"TRUMP","DONALD","JOHN","",1123,0,0,13,33,91,4,"MT. PLEASANT X 1","X","1","","",0,125,001,0390,"","",0,4,33,91
+"2024","G",1,410,1,0,2,2,"USP","REP",2024C0271,"TRUMP","DONALD","JOHN","",724,0,0,13,33,91,4,"MT. PLEASANT X 2","X","2","","",0,125,001,0400,"","",0,4,33,91
