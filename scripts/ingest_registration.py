@@ -25,23 +25,46 @@ COUNTY_MAP = {
 }
 
 def get_or_create(cursor, table_name, unique_data, other_data=None):
-    """Gets the ID of a row in a table if it exists, otherwise creates it."""
+    """
+    Gets the ID of a row in a table if it exists, otherwise creates it.
+    This function is more robust and avoids unnecessary updates.
+    """
     unique_values = tuple(unique_data.values())
     where_clause = ' AND '.join(f'{k} = ?' for k in unique_data.keys())
     cursor.execute(f"SELECT id FROM {table_name} WHERE {where_clause}", unique_values)
     result = cursor.fetchone()
 
     if result:
+        # If record exists, update other_data if it's provided and contains non-empty values
+        if other_data and any(v for v in other_data.values() if v is not None and v != ''):
+            set_clause = ', '.join(f'{k} = ?' for k in other_data.keys())
+            update_values = tuple(other_data.values()) + (result[0],)
+            cursor.execute(f"UPDATE {table_name} SET {set_clause} WHERE id = ?", update_values)
         return result[0]
     else:
+        # If record does not exist, create it
         all_data = unique_data.copy()
         if other_data:
             all_data.update(other_data)
+        
         columns = ', '.join(all_data.keys())
         placeholders = ', '.join('?' for _ in all_data)
         values = tuple(all_data.values())
-        cursor.execute(f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})", values)
-        return cursor.lastrowid
+        
+        try:
+            cursor.execute(f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})", values)
+            return cursor.lastrowid
+        except sqlite3.IntegrityError:
+            # This can happen in a race condition or if the unique constraint is violated.
+            # Re-fetch the ID to be safe.
+            cursor.execute(f"SELECT id FROM {table_name} WHERE {where_clause}", unique_values)
+            result = cursor.fetchone()
+            if result:
+                return result[0]
+            else:
+                # This indicates a more serious problem.
+                print(f"CRITICAL: Failed to get or create a record in {table_name} with data {all_data}")
+                raise
 
 def process_registration_file(cursor, file_path, year):
     """Processes a single registration file, either txt or xlsx."""
@@ -81,15 +104,15 @@ def process_registration_file(cursor, file_path, year):
             county_code_str = row['county_code'].zfill(2)
             county_name = COUNTY_MAP.get(county_code_str, f"Unknown County {county_code_str}")
 
-            election_id = get_or_create(cursor, 'elections', 
+            election_id = get_or_create(cursor, 'elections',
                                         {'state_id': state_id, 'year': int(year), 'type': 'G'})
 
-            county_id = get_or_create(cursor, 'counties', 
+            county_id = get_or_create(cursor, 'counties',
                                       {'state_id': state_id, 'county_code': county_code_str},
                                       {'name': county_name, 'fips_code': row.get('f_i_p_s_code', '')})
 
             precinct_id = get_or_create(cursor, 'precincts',
-                                        {'county_id': county_id, 'precinct_code': row['precinct_code']},
+                                        {'county_id': county_id, 'precinct_code': row['precinct_code'].strip()},
                                         {'municipality_name': row.get('municipality_name', ''),
                                          'us_congressional_district': row.get('us_congressional_district', ''),
                                          'state_senatorial_district': row.get('state_senatorial_district', ''),
@@ -98,15 +121,28 @@ def process_registration_file(cursor, file_path, year):
             for i in range(1, 7):
                 party_abbr = row.get(f'party_{i}_abbr', '')
                 voters_str = row.get(f'party_{i}_voters', '0')
-                # Handle potential NaN values from pandas, which can be objects or the string 'nan'
-                if voters_str == 'nan' or pd.isna(voters_str):
+                
+                if pd.isna(voters_str) or voters_str == 'nan':
                     voters_str = '0'
-                if party_abbr and voters_str and int(float(voters_str)) > 0:
+                
+                voters_count = 0
+                try:
+                    voters_count = int(float(voters_str))
+                except (ValueError, TypeError):
+                    print(f"WARNING: Could not convert '{voters_str}' to number for party '{party_abbr}' in row. Setting to 0.")
+                    voters_count = 0
+
+                if party_abbr and voters_count > 0:
                     party_id = get_or_create(cursor, 'parties', {'party_code': party_abbr})
-                    cursor.execute("""
-                    INSERT OR IGNORE INTO registration (election_id, precinct_id, party_id, registered_voters)
-                    VALUES (?, ?, ?, ?)
-                    """, (election_id, precinct_id, party_id, int(float(voters_str))))
+                    try:
+                        cursor.execute("""
+                        INSERT INTO registration (election_id, precinct_id, party_id, registered_voters)
+                        VALUES (?, ?, ?, ?)
+                        """, (election_id, precinct_id, party_id, voters_count))
+                    except sqlite3.IntegrityError:
+                        # This is expected if the record already exists due to the UNIQUE constraint.
+                        # We can safely ignore it.
+                        pass
             
             count += 1
         except Exception as e:
@@ -138,6 +174,13 @@ def ingest_all_registration_data():
                 print(f"No registration file found for {year}")
         
         conn.commit()
+
+        # Verification step
+        cursor.execute("SELECT COUNT(*) FROM registration")
+        count = cursor.fetchone()[0]
+        print(f"\nVerification: Found {count} records in the registration table.")
+        if count == 0:
+            print("WARNING: No data was ingested into the registration table. Please check the source files and script.")
 
 if __name__ == '__main__':
     ingest_all_registration_data()
