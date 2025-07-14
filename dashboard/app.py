@@ -119,7 +119,8 @@ app.layout = html.Div(children=[
             id='sort-dropdown',
             options=[
                 {'label': 'Votes', 'value': 'votes'},
-                {'label': 'Precinct ID', 'value': 'precinct_id'}
+                {'label': 'Precinct ID', 'value': 'precinct_id'},
+                {'label': 'Lowest Turnout', 'value': 'lowest_turnout'} # New sorting option
             ],
             value='votes', # Default sort by votes
             clearable=False
@@ -162,22 +163,27 @@ def update_chart(selected_year, selected_office, sort_by):
     df_merged['registration_difference'] = df_merged['registration_difference'].fillna(0) # Fill NaN for precincts without registration data
 
     # Prepare data for stacked diverging bar chart
-    df_merged['DEM_votes_pos'] = df_merged['DEM_votes']
-    df_merged['REP_votes_neg'] = -df_merged['REP_votes']
-    df_merged['DEM_reg_pos'] = df_merged['DEM_reg']
-    df_merged['REP_reg_neg'] = -df_merged['REP_reg']
+    # Calculate vote percentages relative to registrations
+    # Handle potential division by zero by filling with 0 or NaN, then fillna(0) later
+    df_merged['DEM_vote_percentage'] = (df_merged['DEM_votes'] / df_merged['DEM_reg']).fillna(0) * 100
+    df_merged['REP_vote_percentage'] = (df_merged['REP_votes'] / df_merged['REP_reg']).fillna(0) * 100
 
+    # Represent registered voters as 100% for visualization
+    df_merged['DEM_reg_percentage'] = 100
+    df_merged['REP_reg_percentage'] = 100
+
+    # Prepare data for stacked diverging bar chart with percentages
     df_plot = df_merged[[
         'municipality_name', 'precinct_code',
-        'DEM_votes_pos', 'REP_votes_neg',
-        'DEM_reg_pos', 'REP_reg_neg'
+        'DEM_vote_percentage', 'REP_vote_percentage',
+        'DEM_reg_percentage', 'REP_reg_percentage'
     ]].copy()
 
     df_plot['precinct_display'] = df_plot['municipality_name'] + ' - ' + df_plot['precinct_code']
 
     df_plot_melted = df_plot.melt(
         id_vars=['precinct_display', 'municipality_name', 'precinct_code'],
-        value_vars=['DEM_votes_pos', 'REP_votes_neg', 'DEM_reg_pos', 'REP_reg_neg'],
+        value_vars=['DEM_vote_percentage', 'REP_vote_percentage', 'DEM_reg_percentage', 'REP_reg_percentage'],
         var_name='party_type',
         value_name='value'
     )
@@ -205,12 +211,28 @@ def update_chart(selected_year, selected_office, sort_by):
         ordered_precincts = sorted(df_plot_melted['precinct_display'].unique())
         df_plot_melted['precinct_display'] = pd.Categorical(df_plot_melted['precinct_display'], categories=ordered_precincts, ordered=True)
         df_plot_melted = df_plot_melted.sort_values(by=['precinct_display', 'value'], ascending=[True, False])
+    elif sort_by == 'lowest_turnout':
+        # Calculate the minimum vote percentage for each precinct across both parties
+        # We need to consider only the vote percentages for this sorting
+        df_vote_percentages = df_plot_melted[df_plot_melted['party_type'].isin(['DEM_vote_percentage', 'REP_vote_percentage'])].copy()
+        
+        # Group by precinct and find the minimum vote percentage
+        precinct_min_turnout = df_vote_percentages.groupby('precinct_display')['value'].min().reset_index()
+        
+        # Sort by the minimum turnout in ascending order to get lowest turnout first
+        top_precincts_for_sorting = precinct_min_turnout.sort_values(by='value', ascending=True).head(150)
+        ordered_precincts = top_precincts_for_sorting['precinct_display'].tolist()
+
+        # Filter melted dataframe to only include top precincts and sort for display
+        df_plot_melted = df_plot_melted[df_plot_melted['precinct_display'].isin(ordered_precincts)]
+        df_plot_melted['precinct_display'] = pd.Categorical(df_plot_melted['precinct_display'], categories=ordered_precincts, ordered=True)
+        df_plot_melted = df_plot_melted.sort_values(by=['precinct_display', 'value'], ascending=[True, False])
 
     colors = {
-        'DEM_votes_pos': 'blue',
-        'REP_votes_neg': 'red',
-        'DEM_reg_pos': 'lightblue',
-        'REP_reg_neg': 'lightcoral'
+        'DEM_vote_percentage': 'blue',
+        'REP_vote_percentage': 'red',
+        'DEM_reg_percentage': 'lightblue', # Lighter shade for registration
+        'REP_reg_percentage': 'lightcoral' # Lighter shade for registration
     }
 
     fig = px.bar(
@@ -220,11 +242,11 @@ def update_chart(selected_year, selected_office, sort_by):
         color='party_type',
         color_discrete_map=colors,
         orientation='h',
-        barmode='relative',
-        title=f'DEM vs REP Votes and Registrations by Precinct for {selected_office} ({selected_year})',
-        labels={'value': 'Count', 'precinct_display': 'Precinct'},
+        barmode='group', # Changed to 'group' to show side-by-side
+        title=f'{"Precincts with Lowest Turnout" if sort_by == "lowest_turnout" else "Vote Percentage vs. Registration Percentage"} by Precinct for {selected_office} ({selected_year})',
+        labels={'value': 'Percentage', 'precinct_display': 'Precinct'}, # Updated label
         hover_data={
-            'value': ':.0f',
+            'value': ':.2f%', # Format as percentage
             'party_type': True,
             'municipality_name': False,
             'precinct_code': False
