@@ -1,3 +1,13 @@
+/dashboard/.bundle
+/dashboard//db/*.sqlite3
+/dashboard//log/*.log
+/dashboard//tmp
+/dashboard/config/database.yml
+/dashboard/config/google_analytics.yml
+/dashboard/.DS_Store
+/dashboard//nbproject/
+/dashboard/public/assets/**
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

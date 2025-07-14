@@ -1,0 +1,351 @@
+#EXTM3U url-tvg="https://epg.best/238e3-usnose.xml" x-tvg-url="https://epg.best/238e3-usnose.xml"
+#EXTINF:-1 tvg-id="AandE.us" tvg-name="USA A&E UHD" tvg-logo="http://23.227.147.172:80/images/99c72d95a86eff2ae1aa0246e6e5833b.png" tvg-chno="1" channel-id="1" group-title="USA Entertainment",USA A&E UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175784.ts
+#EXTINF:-1 tvg-id="Accuweather.us" tvg-name="USA AccuWeather" tvg-logo="http://31.43.191.59:80/images/71a6d51dfa6ed2b5d4231fdd8c21e1b0.png" tvg-chno="2" channel-id="2" group-title="USA Entertainment",USA AccuWeather
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175785.ts
+#EXTINF:-1 tvg-id="AnimalPlanet.us" tvg-name="USA Animal Planet East*" tvg-logo="http://181.233.124.55:80/images/e59d288f9bc82a1143dcf385457b5ac0.png" tvg-chno="6" channel-id="6" group-title="USA Entertainment",USA Animal Planet East*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175791.ts
+#EXTINF:-1 tvg-id="AntennaTV.us" tvg-name="USA Antenna" tvg-logo="http://31.43.191.59:80/images/0a1d439983dade9c75bfb3cde9904ddc.png" tvg-chno="9" channel-id="9" group-title="USA Entertainment",USA Antenna
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175795.ts
+#EXTINF:-1 tvg-id="Bravo.us" tvg-name="USA Bravo East" tvg-logo="http://181.233.124.55:80/images/197c82a638b849311f4856aa54bfc104.png" tvg-chno="15" channel-id="15" group-title="USA Entertainment",USA Bravo East
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175805.ts
+#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-name="USA Comedy Central East UHD" tvg-logo="http://23.227.147.172:80/images/368ee045a76d8af7a0efa688e40838ed.png" tvg-chno="18" channel-id="18" group-title="USA Entertainment",USA Comedy Central East UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175812.ts
+#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-name="USA Comedy Central FHD" tvg-logo="http://31.43.191.59:80/images/368ee045a76d8af7a0efa688e40838ed.png" tvg-chno="19" channel-id="19" group-title="USA Entertainment",USA Comedy Central FHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175813.ts
+#EXTINF:-1 tvg-id="CoziTV.us" tvg-name="USA Cozi TV" tvg-logo="http://23.227.147.172:80/images/74f94ef8a3e2ba60e362f952ed1df2fb.png" tvg-chno="23" channel-id="23" group-title="USA Entertainment",USA Cozi TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175820.ts
+#EXTINF:-1 tvg-id="DiscoveryChannel.us" tvg-name="USA Discovery East*" tvg-logo="http://23.227.147.172:80/images/cc75dba5a0b8052ebb931fe594bbcd1f.png" tvg-chno="27" channel-id="27" group-title="USA Entertainment",USA Discovery East*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175826.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Discovery Science*" tvg-logo="http://23.227.147.172:80/images/5ff47dc9f1333a1a410fe4789d945c9e.png" tvg-chno="30" channel-id="30" group-title="USA Entertainment",USA Discovery Science*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175831.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Discovery Science UHD*" tvg-logo="http://181.233.124.55:80/images/5ff47dc9f1333a1a410fe4789d945c9e.png" tvg-chno="31" channel-id="31" group-title="USA Entertainment",USA Discovery Science UHD*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175833.ts
+#EXTINF:-1 tvg-id="WeatherChannel.us" tvg-name="USA The Weather Channel" tvg-logo="http://23.227.147.172:80/images/5ec5bdfa1fcd0ecb8a860c2a865985ac.png" tvg-chno="62" channel-id="62" group-title="USA Entertainment",USA The Weather Channel
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175945.ts
+#EXTINF:-1 tvg-id="ViceOnTV.us" tvg-name="USA Viceland" tvg-logo="http://31.43.191.59:80/images/4045c859673bd59d884d6ee072e50ccb.png" tvg-chno="81" channel-id="81" group-title="USA Entertainment",USA Viceland
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175971.ts
+#EXTINF:-1 tvg-id="WeTV.us" tvg-name="USA We TV" tvg-logo="http://181.233.124.55:80/images/37dfc5c88c918c31c24cbaab5eaec982.png" tvg-chno="83" channel-id="83" group-title="USA Entertainment",USA We TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175974.ts
+#EXTINF:-1 tvg-id="CSPAN.us" tvg-name="USA C-SPAN" tvg-logo="http://23.227.147.172:80/images/0c5430f3ec92a56ddd05378b4200f0b5.png" tvg-chno="85" channel-id="85" group-title="USA Entertainment",USA C-SPAN
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175983.ts
+#EXTINF:-1 tvg-id="CSPAN2.us" tvg-name="USA C-SPAN 2" tvg-logo="http://181.233.124.55:80/images/6a0ac50d67746752be975e3e20285c07.png" tvg-chno="86" channel-id="86" group-title="USA Entertainment",USA C-SPAN 2
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175984.ts
+#EXTINF:-1 tvg-id="FX.us" tvg-name="USA FX" tvg-logo="http://181.233.124.55:80/images/30318a2847b7702901fdd0cc6259f5ed.png" tvg-chno="107" channel-id="107" group-title="USA Entertainment",USA FX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176031.ts
+#EXTINF:-1 tvg-id="FX.us" tvg-name="USA FX East UHD" tvg-logo="http://23.227.147.172:80/images/edd4e5f02c8ac0873d0cddbe7ebe2187.png" tvg-chno="108" channel-id="108" group-title="USA Entertainment",USA FX East UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176033.ts
+#EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="USA FXM" tvg-logo="http://23.227.147.172:80/images/c71287c43d551d32173a280111ea60b0.png" tvg-chno="109" channel-id="109" group-title="USA Entertainment",USA FXM
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176036.ts
+#EXTINF:-1 tvg-id="FXX.us" tvg-name="USA FXX East" tvg-logo="http://181.233.124.55:80/images/a9ae2ad335e10d26c5b799fc83c380ac.png" tvg-chno="110" channel-id="110" group-title="USA Entertainment",USA FXX East
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176039.ts
+#EXTINF:-1 tvg-id="GACFamily.us" tvg-name="USA Great American Family (Country)" tvg-logo="http://23.227.147.172:80/images/954876aa2d1c0083bbb2cba449c2f18a.png" tvg-chno="147" channel-id="147" group-title="USA Entertainment",USA Great American Family (Country)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175861.ts
+#EXTINF:-1 tvg-id="Hallmark.us" tvg-name="USA Hallmark Channel" tvg-logo="http://31.43.191.59:80/images/4213e199f29e2b4dc0e525dc573dd4f7.png" tvg-chno="149" channel-id="149" group-title="USA Entertainment",USA Hallmark Channel
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175864.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Hallmark Drama" tvg-logo="http://31.43.191.59:80/images/fc3c0fe6b9d10e6b0c4ef340b4da3f6f.png" tvg-chno="150" channel-id="150" group-title="USA Entertainment",USA Hallmark Drama
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175866.ts
+#EXTINF:-1 tvg-id="HallmarkMoviesMysteries.us" tvg-name="USA Hallmark Movies & Mysteries UHD" tvg-logo="http://181.233.124.55:80/images/b216a8c24d55f9dcafdd739fb3b04479.png" tvg-chno="151" channel-id="151" group-title="USA Entertainment",USA Hallmark Movies & Mysteries UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175870.ts
+#EXTINF:-1 tvg-id="HallmarkMoviesMysteries.us" tvg-name="USA Hallmark Movies & Mysteries LHD" tvg-logo="http://23.227.147.172:80/images/5c1276ce90fd2fef9da590adbd744ff0.jpg" tvg-chno="152" channel-id="152" group-title="USA Entertainment",USA Hallmark Movies & Mysteries LHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175871.ts
+#EXTINF:-1 tvg-id="HistoryChannel.us" tvg-name="USA History East UHD" tvg-logo="http://181.233.124.55:80/images/c301e449bcb6c1fa8cdabad918d6a74f.png" tvg-chno="156" channel-id="156" group-title="USA Entertainment",USA History East UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175878.ts
+#EXTINF:-1 tvg-id="INSP.us" tvg-name="USA INSP" tvg-logo="http://181.233.124.55:80/images/88a1f484fb48bcb378b2c7dacc81f036.png" tvg-chno="158" channel-id="158" group-title="USA Entertainment",USA INSP
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175882.ts
+#EXTINF:-1 tvg-id="Laff.us" tvg-name="USA Laff TV*" tvg-logo="http://181.233.124.55:80/images/bcfa48c5850b56af1da4d2656d807b58.png" tvg-chno="161" channel-id="161" group-title="USA Entertainment",USA Laff TV*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175889.ts
+#EXTINF:-1 tvg-id="LifetimeNetwork.us" tvg-name="USA Lifetime East UHD" tvg-logo="http://31.43.191.59:80/images/9122b5895d06e97b97bdbfd41e0a8e47.png" tvg-chno="163" channel-id="163" group-title="USA Entertainment",USA Lifetime East UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175891.ts
+#EXTINF:-1 tvg-id="MeTVPlus.us" tvg-name="USA MeTV" tvg-logo="http://181.233.124.55:80/images/a9ee80e62b40c3393457a06e0b39b42b.png" tvg-chno="165" channel-id="165" group-title="USA Entertainment",USA MeTV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175895.ts
+#EXTINF:-1 tvg-id="NASATV.us" tvg-name="USA NASA TV" tvg-logo="http://31.43.191.59:80/images/d103dbd127cbffa903a490d6acb855af.jpg" tvg-chno="166" channel-id="166" group-title="USA Entertainment",USA NASA TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175898.ts
+#EXTINF:-1 tvg-id="Hallmark.us" tvg-name="USA Hallmark Channel UHD" tvg-logo="http://23.227.147.172:80/images/8f2114e79ee233d0b0d5ad7582d43465.png" tvg-chno="3987" channel-id="3987" group-title="USA Entertainment",USA Hallmark Channel UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1788775.ts
+#EXTINF:-1 tvg-id="Grit.us" tvg-name="USA Grit TV" tvg-logo="http://181.233.124.55:80/images/8a344ccd743a5fc2c8718486939894fd.png" tvg-chno="4712" channel-id="4712" group-title="USA Entertainment",USA Grit TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/315775.ts
+#EXTINF:-1 tvg-id="CatchyComedy.us" tvg-name="USA Catchy Comedy" tvg-logo="http://31.43.191.59:80/images/a6e0b659450ce15078cf96922f3fa7ee.png" tvg-chno="4868" channel-id="4868" group-title="USA Entertainment",USA Catchy Comedy
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/813621.ts
+#EXTINF:-1 tvg-id="MeTVPlus.us" tvg-name="USA MeTV Plus" tvg-logo="http://181.233.124.55:80/images/3f7602d52a4c9a7e70dbd0957c5a044f.png" tvg-chno="4927" channel-id="4927" group-title="USA Entertainment",USA MeTV Plus
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2254089.ts
+#EXTINF:-1 tvg-id="AdultSwim.us" tvg-name="USA Adult Swim West*" tvg-logo="http://23.227.147.172:80/images/45ef989dd426b2938f3b2edef3a536a8.png" tvg-chno="4935" channel-id="4935" group-title="USA Entertainment",USA Adult Swim West*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2451825.ts
+#EXTINF:-1 tvg-id="LifetimeNetwork.us" tvg-name="USA Lifetime West" tvg-logo="http://181.233.124.55:80/images/9122b5895d06e97b97bdbfd41e0a8e47.png" tvg-chno="5315" channel-id="5315" group-title="USA Entertainment",USA Lifetime West
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2137781.ts
+#EXTINF:-1 tvg-id="KPHO.us" tvg-name="USA CBS 5 KPHO PHOENIX" tvg-logo="https://tse1.mm.bing.net/th?id" tvg-chno="1280" channel-id="1280" group-title="USA Local - CBS",USA CBS 5 KPHO PHOENIX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517555.ts
+#EXTINF:-1 tvg-id="WOIO.us" tvg-name="USA CBS 19 WOIO CLEVELAND" tvg-logo="https://tse1.mm.bing.net/th?id" tvg-chno="1339" channel-id="1339" group-title="USA Local - CBS",USA CBS 19 WOIO CLEVELAND
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517630.ts
+#EXTINF:-1 tvg-id="NewsNation.us" tvg-name="USA NewsNation" tvg-logo="http://31.43.191.59:80/images/aecce659d0e59a6d08add0325953fc88.png" tvg-chno="84" channel-id="84" group-title="USA News",USA NewsNation
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175977.ts
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="USA CNN INTERNATIONAL*" tvg-logo="http://23.227.147.172:80/images/0ea6add692992b8a5316407be14423f6.png" tvg-chno="87" channel-id="87" group-title="USA News",USA CNN INTERNATIONAL*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175988.ts
+#EXTINF:-1 tvg-id="FoxBusiness.us" tvg-name="USA Fox Business UHD" tvg-logo="http://23.227.147.172:80/images/912a0234221989a96eb2691da73bdf88.png" tvg-chno="301" channel-id="301" group-title="USA News",USA Fox Business UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176949.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 Hudson Valley" tvg-logo="http://23.227.147.172:80/images/c42abc5959292c9036a03b2f3b46e7cb.png" tvg-chno="376" channel-id="376" group-title="USA News",USA News 12 Hudson Valley
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/190032.ts
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="USA CNN UHD*" tvg-logo="http://31.43.191.59:80/images/ecc7e800f5e0aeb9d2c47e6bf4f123bc.png" tvg-chno="378" channel-id="378" group-title="USA News",USA CNN UHD*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/208973.ts
+#EXTINF:-1 tvg-id="Newsmax.us" tvg-name="USA NEWSMAX" tvg-logo="http://31.43.191.59:80/images/07309c932cd708f5edae8736b6b9e35d.png" tvg-chno="1024" channel-id="1024" group-title="USA News",USA NEWSMAX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/391595.ts
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="USA MSNBC" tvg-logo="http://31.43.191.59:80/images/8b031cea7363cc243f16adca8925c131.png" tvg-chno="1027" channel-id="1027" group-title="USA News",USA MSNBC
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399837.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CGTN (English)" tvg-logo="https://i.ibb.co/FK517pn/CGTN-svg.png" tvg-chno="1028" channel-id="1028" group-title="USA News",USA CGTN (English)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399839.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Boston" tvg-logo="http://31.43.191.59:80/images/3488025223994df7f750e55c9d4915f5.png" tvg-chno="1044" channel-id="1044" group-title="USA News",USA CBSN Boston
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399823.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN New York" tvg-logo="http://31.43.191.59:80/images/e0eaecfa6b218f6114d321925a79b383.png" tvg-chno="1045" channel-id="1045" group-title="USA News",USA CBSN New York
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399829.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Minnesota" tvg-logo="https://i.ibb.co/LRhjLqs/CBSN-logo-2021-svg.png" tvg-chno="1046" channel-id="1046" group-title="USA News",USA CBSN Minnesota
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399828.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA AL JAZEERA HD" tvg-logo="http://23.227.147.172:80/images/d347a076f1a0cbc675f80e86132ea835.png" tvg-chno="1051" channel-id="1051" group-title="USA News",USA AL JAZEERA HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/499315.ts
+#EXTINF:-1 tvg-id="FoxNews.us" tvg-name="USA Fox News SD" tvg-logo="http://181.233.124.55:80/images/6238892403d97166fc48fd625aad5634.png" tvg-chno="2014" channel-id="2014" group-title="USA News",USA Fox News SD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/648545.ts
+#EXTINF:-1 tvg-id="PAC12LosAngeles.us" tvg-name="USA CBSN Los Angeles" tvg-logo="https://i.ibb.co/LRhjLqs/CBSN-logo-2021-svg.png" tvg-chno="2250" channel-id="2250" group-title="USA News",USA CBSN Los Angeles
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399827.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA FREE SPEECH TV" tvg-logo="http://31.43.191.59:80/images/0f9efa57685a7823219443f0fd066007.png" tvg-chno="2258" channel-id="2258" group-title="USA News",USA FREE SPEECH TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/787136.ts
+#EXTINF:-1 tvg-id="CNBC.us" tvg-name="USA CNBC UHD" tvg-logo="http://23.227.147.172:80/images/c7808644eda4e181fbae1ba268d14bb3.png" tvg-chno="2286" channel-id="2286" group-title="USA News",USA CNBC UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/943540.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA The Grio" tvg-logo="https://i.ibb.co/DGbbzgX/The-Grio-svg.png" tvg-chno="2360" channel-id="2360" group-title="USA News",USA The Grio
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1018431.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA i24 News" tvg-logo="http://181.233.124.55:80/images/a3d24ca2c5cf5f6ce8f17b1374bb8565.png" tvg-chno="3185" channel-id="3185" group-title="USA News",USA i24 News
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1301541.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA InfoWars" tvg-logo="http://181.233.124.55:80/images/b55c770831baa337cb888891177a6a97.png" tvg-chno="3747" channel-id="3747" group-title="USA News",USA InfoWars
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175881.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Revry News" tvg-logo="http://181.233.124.55:80/images/bd6df26d9e34e9a9531958dc6b51feb7.png" tvg-chno="3820" channel-id="3820" group-title="USA News",USA Revry News
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1589692.ts
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="USA CNN*" tvg-logo="http://181.233.124.55:80/images/ecc7e800f5e0aeb9d2c47e6bf4f123bc.png" tvg-chno="4028" channel-id="4028" group-title="USA News",USA CNN*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846753.ts
+#EXTINF:-1 tvg-id="FoxNews.us" tvg-name="USA Fox News Channel" tvg-logo="http://181.233.124.55:80/images/06d4711bdf88b2a49098b97b1dbd6d85.png" tvg-chno="4029" channel-id="4029" group-title="USA News",USA Fox News Channel
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846754.ts
+#EXTINF:-1 tvg-id="HLN.us" tvg-name="USA HLN*" tvg-logo="http://181.233.124.55:80/images/a96baf39797542e92555ff265ccd0c21.png" tvg-chno="4030" channel-id="4030" group-title="USA News",USA HLN*
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846757.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 New Jersey" tvg-logo="http://23.227.147.172:80/images/5ad4ef31ee5eaf19768a63b0d5fbdd93.png" tvg-chno="4031" channel-id="4031" group-title="USA News",USA News 12 New Jersey
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846760.ts
+#EXTINF:-1 tvg-id="OneAmericaNews.us" tvg-name="USA OAN (One America News Network)" tvg-logo="http://181.233.124.55:80/images/e7ce7207e9824ac6b3003f5209c19e8b.png" tvg-chno="4032" channel-id="4032" group-title="USA News",USA OAN (One America News Network)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846765.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 Brooklyn" tvg-logo="http://31.43.191.59:80/images/9a05408f5e15067c1b760d56fd4c66cb.png" tvg-chno="4033" channel-id="4033" group-title="USA News",USA News 12 Brooklyn
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846773.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 Westchester" tvg-logo="" tvg-chno="4034" channel-id="4034" group-title="USA News",USA News 12 Westchester
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846776.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 Connecticut" tvg-logo="" tvg-chno="4035" channel-id="4035" group-title="USA News",USA News 12 Connecticut
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846777.ts
+#EXTINF:-1 tvg-id="CNBCWorld.us" tvg-name="USA CNBC World" tvg-logo="http://23.227.147.172:80/images/d10a64b7dae17d8cb16f87e937ef4ca8.png" tvg-chno="4037" channel-id="4037" group-title="USA News",USA CNBC World
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846793.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA BBC World News" tvg-logo="http://31.43.191.59:80/images/3d87c506ecb1e0f104cbaf21039c12a8.png" tvg-chno="4038" channel-id="4038" group-title="USA News",USA BBC World News
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1847083.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CHEDDAR NEWS" tvg-logo="http://31.43.191.59:80/images/f7e4479aa6b3f9047c78703099d643f7.png" tvg-chno="4044" channel-id="4044" group-title="USA News",USA CHEDDAR NEWS
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1852101.ts
+#EXTINF:-1 tvg-id="CheddarBusiness.us" tvg-name="USA Cheddar Business" tvg-logo="http://31.43.191.59:80/images/f7e4479aa6b3f9047c78703099d643f7.png" tvg-chno="4045" channel-id="4045" group-title="USA News",USA Cheddar Business
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1852102.ts
+#EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="USA Bloomberg" tvg-logo="http://31.43.191.59:80/images/556a887a4d1a629b64692fadd01bce04.png" tvg-chno="4046" channel-id="4046" group-title="USA News",USA Bloomberg
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1852103.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Newsy" tvg-logo="http://31.43.191.59:80/images/69797a7a3b3a1ab9e16d4e3b051188bb.png" tvg-chno="4047" channel-id="4047" group-title="USA News",USA Newsy
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1852104.ts
+#EXTINF:-1 tvg-id="NewEnglandCableNews.us" tvg-name="USA New England Cable News" tvg-logo="http://www.ranklogos.com/wp-content/uploads/2015/01/New-England-Cable-News.gif" tvg-chno="4049" channel-id="4049" group-title="USA News",USA New England Cable News
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1852544.ts
+#EXTINF:-1 tvg-id="CNBC.us" tvg-name="USA CNBC SD" tvg-logo="http://181.233.124.55:80/images/c7808644eda4e181fbae1ba268d14bb3.png" tvg-chno="4054" channel-id="4054" group-title="USA News",USA CNBC SD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1855511.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Dallas" tvg-logo="http://31.43.191.59:80/images/a6e912e562c5b9ca88efdf22863c5b02.png" tvg-chno="4721" channel-id="4721" group-title="USA News",USA CBSN Dallas
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399825.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBN News International" tvg-logo="http://181.233.124.55:80/images/418886fff4d1e6bb77d06627cf69f362.png" tvg-chno="4722" channel-id="4722" group-title="USA News",USA CBN News International
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399838.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Republic TV" tvg-logo="http://181.233.124.55:80/images/578dd4939a8be1c3622b1c58adb431c9.png" tvg-chno="4735" channel-id="4735" group-title="USA News",USA Republic TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1949249.ts
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="USA MSNBC (Backup)" tvg-logo="http://23.227.147.172:80/images/8b031cea7363cc243f16adca8925c131.png" tvg-chno="4810" channel-id="4810" group-title="USA News",USA MSNBC (Backup)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2093177.ts
+#EXTINF:-1 tvg-id="FoxBusiness.us" tvg-name="USA Fox Business channel" tvg-logo="http://31.43.191.59:80/images/858b7de755d191a1c62d854937e472aa.png" tvg-chno="4857" channel-id="4857" group-title="USA News",USA Fox Business channel
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2209769.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 New York" tvg-logo="http://23.227.147.172:80/images/5ad4ef31ee5eaf19768a63b0d5fbdd93.png" tvg-chno="4861" channel-id="4861" group-title="USA News",USA News 12 New York
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2221699.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA RT News America" tvg-logo="http://181.233.124.55:80/images/bd4e5f2d27baf1f0e497845507db8bad.png" tvg-chno="4893" channel-id="4893" group-title="USA News",USA RT News America
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2310343.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA SPECTRUM NEWS - CENTRAL NY" tvg-logo="http://181.233.124.55:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="4924" channel-id="4924" group-title="USA News",USA SPECTRUM NEWS - CENTRAL NY
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2417700.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News 1 Buffalo" tvg-logo="http://31.43.191.59:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="4936" channel-id="4936" group-title="USA News",USA Spectrum News 1 Buffalo
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2458592.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Pittsburgh" tvg-logo="http://23.227.147.172:80/images/fafd953b57e79ec75b4ff4ed18d63b74.png" tvg-chno="4943" channel-id="4943" group-title="USA News",USA CBSN Pittsburgh
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399831.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Philly" tvg-logo="http://23.227.147.172:80/images/2de755470982fbe6381a5f838cc80421.png" tvg-chno="4944" channel-id="4944" group-title="USA News",USA CBSN Philly
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399830.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Denver" tvg-logo="http://23.227.147.172:80/images/515f6329cf550628787a9b19d755e278.png" tvg-chno="4945" channel-id="4945" group-title="USA News",USA CBSN Denver
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399826.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Chicago" tvg-logo="http://23.227.147.172:80/images/68c56433e2609e476087a7beea4169c5.png" tvg-chno="4946" channel-id="4946" group-title="USA News",USA CBSN Chicago
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399824.ts
+#EXTINF:-1 tvg-id="PAC12BayArea.us" tvg-name="USA CBSN Bay Area" tvg-logo="http://23.227.147.172:80/images/db1fcb0cfd650e954722630d15d04ec7.png" tvg-chno="4947" channel-id="4947" group-title="USA News",USA CBSN Bay Area
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/399822.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CBSN Philadelphia" tvg-logo="" tvg-chno="4954" channel-id="4954" group-title="USA News",USA CBSN Philadelphia
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2493114.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News 1 Greensboro HD" tvg-logo="http://23.227.147.172:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="4985" channel-id="4985" group-title="USA News",USA Spectrum News 1 Greensboro HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2567236.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA SPECTRUM NEWS (NEW YORK) ROCHESTER" tvg-logo="http://23.227.147.172:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="5314" channel-id="5314" group-title="USA News",USA SPECTRUM NEWS (NEW YORK) ROCHESTER
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2697506.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Newsnet" tvg-logo="https://newsnetnational.images.worldnow.com/images/24127333_G.png?auto" tvg-chno="5327" channel-id="5327" group-title="USA News",USA Newsnet
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2745425.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News Austin" tvg-logo="http://181.233.124.55:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="5337" channel-id="5337" group-title="USA News",USA Spectrum News Austin
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2757377.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News 1 Wisconsin" tvg-logo="http://31.43.191.59:80/images/d46e35f4753d37e2d18cf626f52c18d5.png" tvg-chno="5340" channel-id="5340" group-title="USA News",USA Spectrum News 1 Wisconsin
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2758167.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 Long Island" tvg-logo="" tvg-chno="5341" channel-id="5341" group-title="USA News",USA News 12 Long Island
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846759.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA News 12 The Bronx" tvg-logo="http://181.233.124.55:80/images/5ad4ef31ee5eaf19768a63b0d5fbdd93.png" tvg-chno="5342" channel-id="5342" group-title="USA News",USA News 12 The Bronx
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2758369.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA CNN MAX" tvg-logo="https://i.ibb.co/1vtz8t0/784a4ec3-7f92-4be6-940f-87df3a0e794a-UR1000-1000.png" tvg-chno="5373" channel-id="5373" group-title="USA News",USA CNN MAX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2776060.ts
+#EXTINF:-1 tvg-id="ScrippsNews.us" tvg-name="USA Scripps News" tvg-logo="https://scripps.com/wp-content/uploads/2022/12/ScrippsWebsite_Logo_511x173.png" tvg-chno="5428" channel-id="5428" group-title="USA News",USA Scripps News
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2795298.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News 1 Worcester" tvg-logo="http://31.43.191.59:80/images/735f6f96cb51c64d87ba5b6a3e5a365d.png" tvg-chno="5436" channel-id="5436" group-title="USA News",USA Spectrum News 1 Worcester
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2801000.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA SPECTRUM NEWS HUDSON VALLEY" tvg-logo="http://31.43.191.59:80/images/735f6f96cb51c64d87ba5b6a3e5a365d.png" tvg-chno="5440" channel-id="5440" group-title="USA News",USA SPECTRUM NEWS HUDSON VALLEY
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2811587.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Yahoo! Finance" tvg-logo="http://23.227.147.172:80/images/5094086966722775704ec698ba70bfd5.png" tvg-chno="5448" channel-id="5448" group-title="USA News",USA Yahoo! Finance
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2819962.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA SPECTRUM NEWS 1 (CAROLINAS) - CHARLOTTE" tvg-logo="http://181.233.124.55:80/images/735f6f96cb51c64d87ba5b6a3e5a365d.png" tvg-chno="5479" channel-id="5479" group-title="USA News",USA SPECTRUM NEWS 1 (CAROLINAS) - CHARLOTTE
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2844313.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Fox News LIVE NOW" tvg-logo="" tvg-chno="6898" channel-id="6898" group-title="USA News",USA Fox News LIVE NOW
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2848884.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Newsmax 2" tvg-logo="" tvg-chno="6929" channel-id="6929" group-title="USA News",USA Newsmax 2
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2854525.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum News NY1" tvg-logo="http://31.43.191.59:80/images/735f6f96cb51c64d87ba5b6a3e5a365d.png" tvg-chno="6940" channel-id="6940" group-title="USA News",USA Spectrum News NY1
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2864800.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Spectrum Bay News 9" tvg-logo="http://23.227.147.172:80/images/735f6f96cb51c64d87ba5b6a3e5a365d.png" tvg-chno="6944" channel-id="6944" group-title="USA News",USA Spectrum Bay News 9
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2248291.ts
+#EXTINF:-1 tvg-id="CBSSportsNetwork.us" tvg-name="USA CBS Sports Network" tvg-logo="http://31.43.191.59:80/images/52ce678200229d09111c8299a7b60e7e.png" tvg-chno="300" channel-id="300" group-title="USA Sports",USA CBS Sports Network
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176607.ts
+#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="USA FOX Soccer Plus LHD" tvg-logo="http://31.43.191.59:80/images/8b66eadc6266d380c634c6226115ac61.png" tvg-chno="302" channel-id="302" group-title="USA Sports",USA FOX Soccer Plus LHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/176986.ts
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="USA ESPN SD" tvg-logo="http://181.233.124.55:80/images/f11c7812e24f17351f1f6c7a22fff7f0.png" tvg-chno="333" channel-id="333" group-title="USA Sports",USA ESPN SD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/177207.ts
+#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="USA FOX SPORTS 1 HD" tvg-logo="http://23.227.147.172:80/images/207e4a4859c6f8a03d7d85dfd7b17176.png" tvg-chno="394" channel-id="394" group-title="USA Sports",USA FOX SPORTS 1 HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220387.ts
+#EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="USA FOX SPORTS 2 HD" tvg-logo="http://181.233.124.55:80/images/abe900af84acbfa9f0fa73a8d0e79930.png" tvg-chno="395" channel-id="395" group-title="USA Sports",USA FOX SPORTS 2 HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220388.ts
+#EXTINF:-1 tvg-id="PAC12Network.us" tvg-name="USA PAC-12 Mountain" tvg-logo="http://31.43.191.59:80/images/ea703ffeb1c7a3d9ca6cfe95144c41d6.png" tvg-chno="399" channel-id="399" group-title="USA Sports",USA PAC-12 Mountain
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220393.ts
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="USA ESPN HD" tvg-logo="http://31.43.191.59:80/images/f11c7812e24f17351f1f6c7a22fff7f0.png" tvg-chno="410" channel-id="410" group-title="USA Sports",USA ESPN HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220406.ts
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="USA ESPN 2" tvg-logo="http://31.43.191.59:80/images/08039b40472b82555a3ba745b0ed32df.png" tvg-chno="411" channel-id="411" group-title="USA Sports",USA ESPN 2
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220407.ts
+#EXTINF:-1 tvg-id="ESPNNews.us" tvg-name="USA ESPN NEWS HD" tvg-logo="http://31.43.191.59:80/images/2c3fc98af320861514c64b713186c9e3.png" tvg-chno="412" channel-id="412" group-title="USA Sports",USA ESPN NEWS HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220410.ts
+#EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="USA ESPN SEC NETWORK HD" tvg-logo="http://31.43.191.59:80/images/dcb26abab7d8a2a85c7aa4ca524041ab.png" tvg-chno="413" channel-id="413" group-title="USA Sports",USA ESPN SEC NETWORK HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220411.ts
+#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="USA ESPN U HD" tvg-logo="http://23.227.147.172:80/images/cba769a92e8b87975731d3c833669c6a.png" tvg-chno="414" channel-id="414" group-title="USA Sports",USA ESPN U HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220412.ts
+#EXTINF:-1 tvg-id="PAC12Arizona.us" tvg-name="USA PAC-12 Arizona" tvg-logo="http://181.233.124.55:80/images/1e4c5c5c1a50ba6d57dd0b307852c315.png" tvg-chno="439" channel-id="439" group-title="USA Sports",USA PAC-12 Arizona
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220459.ts
+#EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="USA NFL Redzone" tvg-logo="http://181.233.124.55:80/images/f9c137f3645db60a1745917a562c480d.png" tvg-chno="441" channel-id="441" group-title="USA Sports",USA NFL Redzone
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220463.ts
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="USA ESPN UHD" tvg-logo="http://31.43.191.59:80/images/bd1162dfe23bec229b4f16f46604deee.png" tvg-chno="455" channel-id="455" group-title="USA Sports",USA ESPN UHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/226642.ts
+#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="USA ESPN U (backup)" tvg-logo="http://31.43.191.59:80/images/cba769a92e8b87975731d3c833669c6a.png" tvg-chno="3635" channel-id="3635" group-title="USA Sports",USA ESPN U (backup)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1401743.ts
+#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-name="USA FOX Sports Southwest" tvg-logo="http://181.233.124.55:80/images/e5bd01a0cc0cdb89f97616837099fa32.png" tvg-chno="3980" channel-id="3980" group-title="USA Sports",USA FOX Sports Southwest
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1777886.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Gol TV" tvg-logo="http://23.227.147.172:80/images/51455baec1de7f9e2c3050ebe5071d84.png" tvg-chno="4899" channel-id="4899" group-title="USA Sports",USA Gol TV
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2372468.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA ESPN SEC Network (Back-up)" tvg-logo="" tvg-chno="4906" channel-id="4906" group-title="USA Sports",USA ESPN SEC Network (Back-up)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2382086.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Pac-12 Network" tvg-logo="http://23.227.147.172:80/images/5adb9c63e054e2e6c3ab860b321b4b73.png" tvg-chno="4907" channel-id="4907" group-title="USA Sports",USA Pac-12 Network
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2384640.ts
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="USA ESPN HD (backup)" tvg-logo="http://181.233.124.55:80/images/f11c7812e24f17351f1f6c7a22fff7f0.png" tvg-chno="4925" channel-id="4925" group-title="USA Sports",USA ESPN HD (backup)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2420493.ts
+#EXTINF:-1 tvg-id="WRBW.us" tvg-name="USA MY 65 WRBW ORLANDO" tvg-logo="https://tse1.mm.bing.net/th?id" tvg-chno="1375" channel-id="1375" group-title="USA Local - MISC",USA MY 65 WRBW ORLANDO
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517708.ts
+#EXTINF:-1 tvg-id="WXCW.us" tvg-name="USA CW 46 WXCW FORT MYERS" tvg-logo="http://31.43.191.59:80/images/1345aed34310db5f16c9996344d2392e.png" tvg-chno="3084" channel-id="3084" group-title="USA Local - MISC",USA CW 46 WXCW FORT MYERS
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1130644.ts
+#EXTINF:-1 tvg-id="WUAB.us" tvg-name="USA My 43 (WUAB) Cleveland" tvg-logo="http://31.43.191.59:80/images/70998f8fa94eee76f4bc60533766396a.png" tvg-chno="5004" channel-id="5004" group-title="USA Local - MISC",USA My 43 (WUAB) Cleveland
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/182022.ts
+#EXTINF:-1 tvg-id="WRDQ.us" tvg-name="USA Orlando TV27 (WRDQ)" tvg-logo="http://31.43.191.59:80/images/8f822e546355c2fe3b5e00f82e4e59a7.png" tvg-chno="5015" channel-id="5015" group-title="USA Local - MISC",USA Orlando TV27 (WRDQ)
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/2655634.ts
+#EXTINF:-1 tvg-id="KTVK.us" tvg-name="USA KTVK 3TV Arizona's Family Phoenix" tvg-logo="http://23.227.147.172:80/images/f2fdf532e54619f55dc37d84a1267454.png" tvg-chno="5421" channel-id="5421" group-title="USA Local - MISC",USA KTVK 3TV Arizona's Family Phoenix
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/175888.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA NBC Sport Network" tvg-logo="http://181.233.124.55:80/images/3d57e5c89601ea1305f369af4892514f.png" tvg-chno="454" channel-id="454" group-title="USA NBC Sports",USA NBC Sport Network
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/222492.ts
+#EXTINF:-1 tvg-id="BallySportsMidwestExtra.us" tvg-name="USA Bally Sports Midwest" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="444" channel-id="444" group-title="USA Bally Sports",USA Bally Sports Midwest
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220480.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA Bally SPORTS ARIZONA PLUS HD" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="446" channel-id="446" group-title="USA Bally Sports",USA Bally SPORTS ARIZONA PLUS HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220498.ts
+#EXTINF:-1 tvg-id="BallySportsSouthwestPlus.us" tvg-name="USA Bally Sports Midwest Plus" tvg-logo="http://23.227.147.172:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="3182" channel-id="3182" group-title="USA Bally Sports",USA Bally Sports Midwest Plus
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1249864.ts
+#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-name="USA Bally Sports Wisconsin Plus" tvg-logo="http://181.233.124.55:80/images/73be45701da51dc2c58fde13c05ab3cb.png" tvg-chno="3188" channel-id="3188" group-title="USA Bally Sports",USA Bally Sports Wisconsin Plus
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1312037.ts
+#EXTINF:-1 tvg-id="BallySPortsGreatLakes.us" tvg-name="USA Bally Sports Great Lakes" tvg-logo="http://181.233.124.55:80/images/c158118769383c6a3c1d7e4fcba6fe87.png" tvg-chno="4727" channel-id="4727" group-title="USA Bally Sports",USA Bally Sports Great Lakes
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1917895.ts
+#EXTINF:-1 tvg-id="YESNetwork.us" tvg-name="USA Bally SPORTS YES HD" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="4876" channel-id="4876" group-title="USA Bally Sports",USA Bally SPORTS YES HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220469.ts
+#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="USA Bally SPORTS NORTH CAROLINA HD" tvg-logo="http://23.227.147.172:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="4908" channel-id="4908" group-title="USA Bally Sports",USA Bally SPORTS NORTH CAROLINA HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220475.ts
+#EXTINF:-1 tvg-id="BallySportsSanDiego.us" tvg-name="USA Bally SPORTS SAN DIEGO HD" tvg-logo="http://23.227.147.172:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5376" channel-id="5376" group-title="USA Bally Sports",USA Bally SPORTS SAN DIEGO HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220494.ts
+#EXTINF:-1 tvg-id="BallySPortsSoCal.us" tvg-name="USA BALLY SPORTS SOCAL" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5377" channel-id="5377" group-title="USA Bally Sports",USA BALLY SPORTS SOCAL
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1263391.ts
+#EXTINF:-1 tvg-id="BallySPortsSoCal.us" tvg-name="USA Bally Sports Socal Plus" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5378" channel-id="5378" group-title="USA Bally Sports",USA Bally Sports Socal Plus
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1263392.ts
+#EXTINF:-1 tvg-id="BallySportsOhioCleveland.us" tvg-name="USA Bally SPORTS OHIO HD" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5379" channel-id="5379" group-title="USA Bally Sports",USA Bally SPORTS OHIO HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220504.ts
+#EXTINF:-1 tvg-id="BallySportsOhioCincinnati.us" tvg-name="USA Bally SPORTS CINCINNATI" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5383" channel-id="5383" group-title="USA Bally Sports",USA Bally SPORTS CINCINNATI
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220476.ts
+#EXTINF:-1 tvg-id="BallySportsOklahoma.us" tvg-name="USA Bally Sports Oklahoma" tvg-logo="http://31.43.191.59:80/images/99b210c7fb183d3485f7595d8a697390.png" tvg-chno="5385" channel-id="5385" group-title="USA Bally Sports",USA Bally Sports Oklahoma
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1188491.ts
+#EXTINF:-1 tvg-id="BallySportsNewOrleans.us" tvg-name="USA Bally SPORTS NEW ORLEANS HD" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5387" channel-id="5387" group-title="USA Bally Sports",USA Bally SPORTS NEW ORLEANS HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220482.ts
+#EXTINF:-1 tvg-id="BallySportsFlorida.us" tvg-name="USA Bally Sports Florida" tvg-logo="http://31.43.191.59:80/images/99b210c7fb183d3485f7595d8a697390.png" tvg-chno="5393" channel-id="5393" group-title="USA Bally Sports",USA Bally Sports Florida
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220478.ts
+#EXTINF:-1 tvg-id="BallySportsNorth.us" tvg-name="USA Bally Sports North" tvg-logo="http://23.227.147.172:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5394" channel-id="5394" group-title="USA Bally Sports",USA Bally Sports North
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220483.ts
+#EXTINF:-1 tvg-id="BallySportsSouth.us" tvg-name="USA Bally SPORTS SOUTH HD" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5395" channel-id="5395" group-title="USA Bally Sports",USA Bally SPORTS SOUTH HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220489.ts
+#EXTINF:-1 tvg-id="BallySportsWest.us" tvg-name="USA Bally SPORTS WEST HD" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5396" channel-id="5396" group-title="USA Bally Sports",USA Bally SPORTS WEST HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220497.ts
+#EXTINF:-1 tvg-id="BallySportsDetroit.us" tvg-name="USA Bally Sports Detroit" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5399" channel-id="5399" group-title="USA Bally Sports",USA Bally Sports Detroit
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220477.ts
+#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-name="USA Bally Sports Southeast" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5401" channel-id="5401" group-title="USA Bally Sports",USA Bally Sports Southeast
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1044578.ts
+#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-name="USA Bally SPORTS SOUTHWEST HD" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5402" channel-id="5402" group-title="USA Bally Sports",USA Bally SPORTS SOUTHWEST HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220490.ts
+#EXTINF:-1 tvg-id="BallySportsSouthwestPlus.us" tvg-name="USA Bally SPORTS SOUTHWEST PLUS" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5403" channel-id="5403" group-title="USA Bally Sports",USA Bally SPORTS SOUTHWEST PLUS
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1229743.ts
+#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-name="USA Bally SPORTS WISCONSIN HD" tvg-logo="http://23.227.147.172:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5404" channel-id="5404" group-title="USA Bally Sports",USA Bally SPORTS WISCONSIN HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220487.ts
+#EXTINF:-1 tvg-id="BallySportsDetroitExtra.us" tvg-name="USA BALLY SPORTS DETROIT Plus" tvg-logo="http://181.233.124.55:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5415" channel-id="5415" group-title="USA Bally Sports",USA BALLY SPORTS DETROIT Plus
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1688116.ts
+#EXTINF:-1 tvg-id="BallySportsMidwestIndiana.us" tvg-name="USA Bally SPORTS INDIANA PLUS HD" tvg-logo="http://31.43.191.59:80/images/20f3acc3649174116ef549e3035a7e25.png" tvg-chno="5445" channel-id="5445" group-title="USA Bally Sports",USA Bally SPORTS INDIANA PLUS HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/220499.ts
+#EXTINF:-1 tvg-id="WJW.us" tvg-name="USA FOX 8 WJW CLEVELAND" tvg-logo="http://181.233.124.55:80/images/38a2b565c38dd836cb72610694e5144e.png" tvg-chno="1087" channel-id="1087" group-title="USA Local - FOX",USA FOX 8 WJW CLEVELAND
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517256.ts
+#EXTINF:-1 tvg-id="KSAZ.us" tvg-name="USA FOX 10 KSAZ PHOENIX" tvg-logo="https://s.yimg.com/fz/api/res/1.2/8q7Tfq3gS8PQYk_B9f1..w--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTE4MDtxPTgwO3c9MTgw/https://s.yimg.com/zb/imgv1/b6899c8c-dc63-3e91-87f5-cfd5c13c52e0/t_500x300" tvg-chno="1092" channel-id="1092" group-title="USA Local - FOX",USA FOX 10 KSAZ PHOENIX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517262.ts
+#EXTINF:-1 tvg-id="WEWS.us" tvg-name="USA ABC 5 WEWS CLEVELAND" tvg-logo="https://s.yimg.com/fz/api/res/1.2/7ccbI8Ty0YD._UjSj9Zs_A--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTE4MDtxPTgwO3c9MjE3/https://s.yimg.com/zb/imgv1/0fa5c9fe-4ad3-3c36-8dcc-400b7e5ebd50/t_500x300" tvg-chno="1197" channel-id="1197" group-title="USA Local - ABC",USA ABC 5 WEWS CLEVELAND
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517446.ts
+#EXTINF:-1 tvg-id="WSYX.us" tvg-name="USA ABC 6 WSYX COLUMBUS" tvg-logo="https://tse1.mm.bing.net/th?id" tvg-chno="1200" channel-id="1200" group-title="USA Local - ABC",USA ABC 6 WSYX COLUMBUS
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517451.ts
+#EXTINF:-1 tvg-id="KNXV.us" tvg-name="USA ABC 15 KNXV PHOENIX" tvg-logo="http://23.227.147.172:80/images/cff98029355b0ca7fd81e434dab4008b.png" tvg-chno="1230" channel-id="1230" group-title="USA Local - ABC",USA ABC 15 KNXV PHOENIX
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517493.ts
+#EXTINF:-1 tvg-id="KPNX.us" tvg-name="USA NBC 12 KPNX MESA" tvg-logo="http://181.233.124.55:80/images/a2adf11ce864b9e3db68e7625045c765.png" tvg-chno="1460" channel-id="1460" group-title="USA Local - NBC",USA NBC 12 KPNX MESA
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517906.ts
+#EXTINF:-1 tvg-id="WCMH.us" tvg-name="USA NBC 4 WCMH COLUMBUS" tvg-logo="https://s.yimg.com/fz/api/res/1.2/80UMkGhr0EhqLdvYr8s3Ww--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTE4MDtxPTgwO3c9MTgw/https://s.yimg.com/zb/imgv1/814d1b66-82bf-377b-b962-872978b50e5b/t_500x300" tvg-chno="1538" channel-id="1538" group-title="USA Local - NBC",USA NBC 4 WCMH COLUMBUS
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517820.ts
+#EXTINF:-1 tvg-id="WKYC.us" tvg-name="USA NBC 3 WKYC CLEVELAND" tvg-logo="https://tse1.mm.bing.net/th?id" tvg-chno="2294" channel-id="2294" group-title="USA Local - NBC",USA NBC 3 WKYC CLEVELAND
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/517806.ts
+#EXTINF:-1 tvg-id="NBCUniverso.us" tvg-name="USA NBC UNIVERSO" tvg-logo="http://23.227.147.172:80/images/4e738bd2efad0440b2b56fcd6f8aecff.png" tvg-chno="2323" channel-id="2323" group-title="USA Local - NBC",USA NBC UNIVERSO
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/975701.ts
+#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK Sky Sports Racing" tvg-logo="http://181.233.124.55:80/images/5049a61acf59dcab9d2408880495fd9c.png" tvg-chno="7582" channel-id="7582" group-title="UK: Sport",UK Sky Sports Racing
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/189989.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK EuroSport 1 HD" tvg-logo="http://31.43.191.59:80/images/d20c4da13b52ed000fd7485cf7eeca32.png" tvg-chno="7614" channel-id="7614" group-title="UK: Sport",UK EuroSport 1 HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/391450.ts
+#EXTINF:-1 tvg-id="RacingUK.uk" tvg-name="UK Racing FHD" tvg-logo="http://181.233.124.55:80/images/b873d609d83e069ec9b835e1b017a4e6.png" tvg-chno="7635" channel-id="7635" group-title="UK: Sport",UK Racing FHD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/709536.ts
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK SkySports F1" tvg-logo="http://31.43.191.59:80/images/c98060173f9e4e100685b5fc6febff6d.png" tvg-chno="7652" channel-id="7652" group-title="UK: Sport",UK SkySports F1
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1196396.ts
+#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK Sky Sports Premier League" tvg-logo="https://e3.365dm.com/tvlogos/channels/1303-Logo.png?U2t5IFNwb3J0cyBQcmVtaWVyIExlYWd1ZQ" tvg-chno="7691" channel-id="7691" group-title="UK: Sport",UK Sky Sports Premier League
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1821337.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK: Eurosport 1 HD" tvg-logo="http://181.233.124.55:80/images/aaf73bfefdfaaf734d02974efa8ef713.png" tvg-chno="7698" channel-id="7698" group-title="UK: Sport",UK: Eurosport 1 HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846756.ts
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK Sky Sports F1" tvg-logo="http://181.233.124.55:80/images/10d30ba83defda917ee0d16c6a595683.png" tvg-chno="7708" channel-id="7708" group-title="UK: Sport",UK Sky Sports F1
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1846774.ts
+#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK: Eurosport 2 HD" tvg-logo="http://31.43.191.59:80/images/5f0345f01875bcd1d5961b0756f1f628.png" tvg-chno="7710" channel-id="7710" group-title="UK: Sport",UK: Eurosport 2 HD
+https://tv.phx.endoffice.net:443/atomlab/tvISonFire2222/1847082.ts
