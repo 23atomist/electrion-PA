@@ -1,0 +1,77 @@
+fields:
+  election_year: numeric
+  election_type: ref:election_type_table
+  county_code: ref:county_code_table
+  precinct_code: numeric
+  party_1_rank: numeric
+  party_1_abbreviation: ref:party_code_table
+  party_1_registered_voters: numeric
+  party_2_rank: numeric
+  party_2_abbreviation: ref:party_code_table
+  party_2_registered_voters: numeric
+  party_3_rank: numeric
+  party_3_abbreviation: ref:party_code_table
+  party_3_registered_voters: numeric
+  party_4_rank: numeric
+  party_4_abbreviation: ref:party_code_table
+  party_4_registered_voters: numeric
+  party_5_rank: numeric
+  party_5_abbreviation: ref:party_code_table
+  party_5_registered_voters: numeric
+  party_6_rank: numeric
+  party_6_abbreviation: ref:party_code_table
+  party_6_registered_voters: numeric
+  us_congressional_district: numeric
+  state_senatorial_district: numeric
+  state_house_district: numeric
+  municipality_type_code: ref:municipality_type_codes
+  municipality_name: character
+  municipality_breakdown_code_1: ref:municipality_breakdown_codes
+  municipality_breakdown_name_1: character
+  municipality_breakdown_code_2: ref:municipality_breakdown_codes
+  municipality_breakdown_name_2: character
+  bi_county_code: numeric
+  mcd_code: numeric
+  fips_code: numeric
+  vtd_code: numeric
+  previous_precinct_code: numeric
+  previous_us_congressional_district: numeric
+  previous_state_senatorial_district: numeric
+  previous_state_house_district: numeric
+
+lookups:
+  election_type_table:
+    G: General
+  county_code_table:
+    '01': Adams
+    '02': Allegheny
+    # ... (and so on, up to '67': York)
+  party_code_table:
+    DEM: Democratica
+    REP: Republican
+    GR: Green
+    LIB: Libertarian
+    OTH: Other
+  municipality_type_codes:
+    2: City
+    4: Township
+    5: Town
+    6: Borough
+  municipality_breakdown_codes:
+    D: District
+    W: Ward
+    P: Precinct
+    X: Other
+
+relations:
+  election_type: election_type_table
+  county_code: county_code_table
+  party_1_abbreviation: party_code_table
+  party_2_abbreviation: party_code_table
+  party_3_abbreviation: party_code_table
+  party_4_abbreviation: party_code_table
+  party_5_abbreviation: party_code_table
+  party_6_abbreviation: party_code_table
+  municipality_type_code: municipality_type_codes
+  municipality_breakdown_code_1: municipality_breakdown_codes
+  municipality_breakdown_code_2: municipality_breakdown_codes

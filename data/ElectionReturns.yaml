@@ -1,0 +1,82 @@
+fields:
+  election_year: numeric
+  election_type: ref:election_type_table
+  county_code: ref:county_code_table
+  precinct_code: numeric
+  candidate_office_rank: numeric
+  candidate_district: numeric
+  candidate_party_rank: numeric
+  candidate_ballot_position: numeric
+  candidate_office_code: ref:office_code_table
+  candidate_party_code: ref:party_code_table
+  candidate_number: numeric
+  candidate_last_name: character
+  candidate_first_name: character
+  candidate_middle_name: character
+  candidate_suffix: character
+  vote_total: numeric
+  yes_vote_total: numeric
+  no_vote_total: numeric
+  us_congressional_district: numeric
+  state_senatorial_district: numeric
+  state_house_district: numeric
+  municipality_type_code: ref:municipality_type_codes
+  municipality_name: character
+  municipality_breakdown_code_1: ref:municipality_breakdown_codes
+  municipality_breakdown_name_1: character
+  municipality_breakdown_code_2: ref:municipality_breakdown_codes
+  municipality_breakdown_name_2: character
+  bi_county_code: numeric
+  mcd_code: numeric
+  fips_code: numeric
+  vtd_code: numeric
+  ballot_question: character
+  record_type: character
+  previous_precinct_code: numeric
+  previous_us_congressional_district: numeric
+  previous_state_senatorial_district: numeric
+  previous_state_house_district: numeric
+
+lookups:
+  election_type_table:
+    P: Primary
+    G: General
+    M: Municipal
+    S: Special
+
+  county_code_table:
+    '01': Adams
+    '02': Allegheny
+    # ... (and so on)
+
+  office_code_table:
+    1: USP
+    2: USS
+    3: USC
+    # ... (and so on)
+
+  party_code_table:
+    D/R: Democratic / Republican
+    DEM: Democratic
+    REP: Republican
+
+  municipality_type_codes:
+    2: City
+    4: Township
+    5: Town
+    6: Borough
+
+  municipality_breakdown_codes:
+    D: District
+    W: Ward
+    P: Precinct
+    X: Other
+
+relations:
+  election_type: election_type_table
+  county_code: county_code_table
+  candidate_office_code: office_code_table
+  candidate_party_code: party_code_table
+  municipality_type_code: municipality_type_codes
+  municipality_breakdown_code_1: municipality_breakdown_codes
+  municipality_breakdown_code_2: municipality_breakdown_codes
